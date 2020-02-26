@@ -2,7 +2,7 @@
 date: 2020-01-27
 title: One Thing, 하나에만 집중해야 한다. 
 categories: [기록]
-tags: [LifeHack]
+tags: [분류없음]
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 date: 2018-07-31
 title: 미네르바 경제, 금융 추천도서
 categories: [기록]
-tags: [잡동사니]
+tags: [분류없음]
 draft: false
 ---
 ## 일반인이 접근할 수 있는 경제학 학습트리</h2>
