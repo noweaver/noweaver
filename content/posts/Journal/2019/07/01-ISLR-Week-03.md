@@ -1,8 +1,8 @@
 ---
 date: 2019-07-01
 title: An Introduiction to Statistical Learning - 3주차
-tags: [ISLR]
-categories: [공부]
+categories: [기록]
+tags: ["Data Science", ISLR]
 draft: false
 ---
 

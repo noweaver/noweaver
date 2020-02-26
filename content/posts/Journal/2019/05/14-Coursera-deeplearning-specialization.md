@@ -2,7 +2,7 @@
 date: 2018-05-14
 title: Coursera - Deep Learning Specialization
 tags: ["Deep Learning", Coursera]
-categories: [공부]
+categories: [기록]
 ---
 드디어 끝났다. 2월초부터 시작했던 Coursera의 "Deep Learning Specialization" by Andrew Ng.수업, 5과목이 약 4개월만에 모두 끝났고, 숙제도 완료했다. 징글징글 했다. 초반에 사내 스터디로 시작했지만, 결국 나만 끝냈네. :< 아쉽다. 똑똑한 친구들에게 많이 배울 수 있는 기회였는데. 역시 회사와 뭔가 병행하는 것은 결코 쉽지 않은 일이다.
 

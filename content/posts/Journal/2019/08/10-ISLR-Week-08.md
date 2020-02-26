@@ -1,8 +1,8 @@
 ---
 date: 2019-08-10
 title: An Introduiction to Statistical Learning - 8주차
-tags: [ISLR]
-categories: [공부]
+categories: [기록]
+tags: ["Data Science", ISLR]
 draft: false
 ---
 

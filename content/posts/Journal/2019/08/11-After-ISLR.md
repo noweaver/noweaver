@@ -1,8 +1,8 @@
 ---
 date: 2019-08-11
 title: An Introduiction to Statistical Learning - 온라인 스터디 후기
-tags: [ISLR]
-categories: [공부]
+categories: [기록]
+tags: ["Data Science", ISLR]
 draft: false
 ---
 
@@ -15,14 +15,14 @@ draft: false
     - 원서: [An Introduction to Statistical Learning with Applicatin in R](https://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf)
     - 번역서: [가볍게 시작하는 통계학습 - R로 실습하는](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=81859233)
 * 진행 목차
-    - [1주차](../06-17-islr-week-01/)
-    - [2주차](../06-24-islr-week-02/)
-    - [3주차](../07-01-islr-week-03/)
-    - [4주차](../07-14-islr-week-04/)
-    - [5주차](../07-21-islr-week-05/)
-    - [6주차](../07-28-islr-week-06/)
-    - [7주차](../08-04-islr-week-07/)
-    - [8주차](../08-10-islr-week-08/)
+    - [1주차](/posts/Journal/2019/06/17-ISLR-Week-01/)
+    - [2주차](/posts/Journal/2019/06/24-ISLR-Week-02/)
+    - [3주차](/posts/Journal/2019/07/01-ISLR-Week-03/)
+    - [4주차](/posts/Journal/2019/07/14-ISLR-Week-04/)
+    - [5주차](/posts/Journal/2019/07/21-ISLR-Week-05/)
+    - [6주차](/posts/Journal/2019/07/28-ISLR-Week-06/)
+    - [7주차](/posts/Journal/2019/08/04-ISLR-Week-07/)
+    - [8주차](/posts/Journal/2019/08/10-ISLR-Week-08/)
 
 # 스터디 동기
 
