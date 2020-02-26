@@ -1,7 +1,7 @@
 ---
 date: 2019-12-01
 title: Mac, 나의 작업환경 만들기 1
-tags: [Mac, Installation]
+tags: [Mac, 설치]
 categories: [기록]
 draft: false
 ---
