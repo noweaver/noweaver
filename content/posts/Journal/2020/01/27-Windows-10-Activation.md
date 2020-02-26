@@ -1,8 +1,8 @@
 ---
 date: 2020-01-27
 title: 윈도우 10 정품인증
+categories: [기록]
 tags: ["Windows 10"]
-categories: [잡동사니]
 draft: false
 ---
 

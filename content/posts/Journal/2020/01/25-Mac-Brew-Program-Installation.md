@@ -1,8 +1,8 @@
 ---
 date: 2020-01-25
 title: 맥 키보드 한/영 키 설정
+categories: [기록]
 tags: [Mac, Karabiner]
-categories: [잡동사니]
 draft: false
 ---
 
