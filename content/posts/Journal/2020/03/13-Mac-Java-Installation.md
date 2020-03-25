@@ -2,7 +2,7 @@
 date: 2020-03-13
 title: Mac에 자바 설치하기
 categories: [기록]
-tags: [Mac, Java, Installation]
+tags: [Mac, Java, 설치]
 draft: false
 ---
 
