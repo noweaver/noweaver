@@ -54,10 +54,20 @@ c.NotebookApp.notebook_dir = '/home/ryan/Workspace'
 ## Jupyter 서버로 실행 방법
 
 ```shell
-$ nohup jupyter notebook --allow-root > .jupyter/error.log & echo $!> .jupyter/pid.txt
+$ nohup jupyter notebook --allow-root > ~/.jupyter_error.log& jobs -p | awk '{print $3}' > ~/.jupyter_pid.txt
 
 // Jupyter 프로세스 종료 시킬 때
-$ kill -9 {process_id}
+$ kill -9 {cat ~/.jupyter_pid.txt}
+```
+
+이것을 다음처럼 환경파일에 Alias 걸어둔다. awk 부분 single quote 부분 유의한다. 
+```zsh
+vi .zshrc
+alias jn="nohup jupyter notebook --allow-root > ~/.jupyter_error.log& jobs -p | awk '{print \$3}' > ~/.jupyter_pid.txt"
+alias killjn="kill -9 \$(cat ~/.jupyter_pid.txt)"
+
+wq!
+$ source .zshrc
 ```
 
 # Jupyter 메모리 사용량 체크
