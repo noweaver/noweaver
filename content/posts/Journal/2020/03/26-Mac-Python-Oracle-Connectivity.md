@@ -2,7 +2,7 @@
 date: 2020-03-26
 title: Mac, Python에서 Oracle 연결하기
 categories: [기록]
-tags: [Mac, Oracle, Python]
+tags: [Mac, Oracle, Python, 설치]
 draft: false
 ---
 
@@ -73,7 +73,7 @@ drwxr-xr-x@ 7 root  wheel   224B Mar 26 09:30 sdk
 
 Oracle Instant Client 의 라이브러리를 모두 (심볼릭) 링크를 걸어둔다. 
 > 이 때 유의할 사항은 디렉터리 이름의 버전은 `19_3` 을 나타내고 있다.
-> 하지만, 위이 목록을 확인했을 때를 보면, `19.1` 로 링크가 걸려 있다. 
+> 하지만, 위이 목록에서와 같이 확인해 보면, `19.1` 로 링크가 걸려 있다. 
 > 따라서 심볼릭 링크를 걸 때, `19.1`로 링크를 걸어야 한다. 
 
 ```zsh
