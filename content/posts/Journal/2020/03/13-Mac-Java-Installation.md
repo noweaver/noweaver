@@ -18,18 +18,49 @@ draft: false
 >> * ***AdoptOpenJDK: https://adoptopenjdk.net/***
 >> * ***AdoptOpenJDK GitHub: https://github.com/AdoptOpenJDK/homebrew-openjdk***
 
+# 설치
+
 여기서는 `Java 8`을 설치했다.
 
 ```zsh
-brew tap AdoptOpenJDK/openjdk
-brew cask install adoptopenjdk8
+$ brew tap AdoptOpenJDK/openjdk
+$ brew cask install adoptopenjdk8
 ```
+
+# 설치 확인
 
 설치 된 자바 버전 확인
 
 ```zsh
-java -version
-openjdk version "1.8.0_242"
-OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_242-b08)
-OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.242-b08, mixed mode)
+$ java -version
+$ openjdk version "1.8.0_242"
+$ OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_242-b08)
+$ OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.242-b08, mixed mode)
+```
+
+# Java Home 세팅
+
+자바 설치 위치 확인
+
+```zsh
+$ /usr/libexec/java_home -V
+Matching Java Virtual Machines (1):
+    1.8.0_242, x86_64:	"AdoptOpenJDK 8"	/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+
+/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+
+```
+
+환경변수 설정
+
+```zsh
+$ vi .zshrc
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
+export PATH="$JAVA_HOME/bin:$PATH"
+
+// 저장 후 종료
+
+$ source ~/.zshrc
+$ which java
+/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java
 ```
