@@ -1,0 +1,109 @@
+{
+	"title": "Caps Lock 을 한/영 전환으로 사용 (rev.1.0)",
+	"rules": [
+		{
+			"description": "Caps Lock to KO/EN Toggle on macOS",
+			"manipulators": [
+				{
+					"type": "basic",
+					"conditions": [
+      			{
+      				"type": "frontmost_application_unless",
+      				"bundle_identifiers": [
+      					"com.parallels.desktop",
+      					"com.parallels.vm",
+								"com.parallels.desktop.console",
+								"com.parallels.winapp.",
+								"com.vmware.fusion",
+                "com.vmware.horizon",
+                "com.vmware.view"
+							]
+						}
+					],
+					"parameters": {
+						"basic.to_if_alone_timeout_milliseconds": 200,
+						"basic.to_if_held_down_threshold_milliseconds": 200
+					},
+					"from": {
+						"key_code": "caps_lock",
+						"modifiers": { "optional": [ "any" ] }
+					},
+					"to_if_alone": [ 
+						{ 
+							"key_code": "spacebar",
+							"modifiers": [
+								"left_control",
+								"left_option"
+							]
+						}
+					],
+					"to_if_held_down" : [
+						{ "key_code": "caps_lock" }
+					]
+				}
+			]
+		},
+		{
+			"description": "Caps Lock to KO/EN Toggle on Parallels",
+			"manipulators": [
+				{
+					"type": "basic",
+					"conditions": [
+      			{
+      				"type": "frontmost_application_if",
+      				"bundle_identifiers": [
+      					"com.parallels.desktop",
+      					"com.parallels.vm",
+								"com.parallels.desktop.console",
+								"com.parallels.winapp."
+							]
+						}
+					],
+					"parameters": {
+						"basic.to_if_alone_timeout_milliseconds": 200,
+						"basic.to_if_held_down_threshold_milliseconds": 200
+					},
+					"from": {
+						"key_code": "caps_lock",
+						"modifiers": { "optional": [ "any" ] }
+					},
+					"to_if_alone": [ { "key_code": "right_option" } ],
+					"to_if_held_down" : [
+						{ "key_code": "caps_lock" }
+					]
+				}
+			]
+		},
+		{
+			"description": "Caps Lock to KO/EN Toggle on VMware",
+			"manipulators": [
+				{
+					"type": "basic",
+					"conditions": [
+      			{
+      				"type": "frontmost_application_if",
+      				"bundle_identifiers": [
+      					"com.vmware.fusion",
+                "com.vmware.horizon",
+                "com.vmware.view"
+							]
+						}
+					],
+					"parameters": {
+						"basic.to_if_alone_timeout_milliseconds": 200,
+						"basic.to_if_held_down_threshold_milliseconds": 200
+					},
+					"from": {
+						"key_code": "caps_lock",
+						"modifiers": { "optional": [ "any" ] }
+					},
+					"to_if_alone": [ { "key_code": "right_option" } ],
+					"to_if_held_down" : [
+						{ "key_code": "caps_lock" }
+					]
+				}
+			]
+		}
+		
+	]
+}
