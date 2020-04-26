@@ -1,8 +1,8 @@
 ---
 date: 2020-04-12
-title: 루틴을 만드는 중
+title: 루틴 만들기, 준비
 categories: [기록]
-tags: [LifeHack]
+tags: ["Habit Partner", Lifehack]
 draft: false
 ---
 
