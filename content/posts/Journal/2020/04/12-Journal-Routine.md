@@ -2,7 +2,7 @@
 date: 2020-04-12
 title: 루틴 만들기, 준비
 categories: [기록]
-tags: ["Habit Partner", Lifehack]
+tags: ["Habiter", Lifehack]
 draft: false
 ---
 
