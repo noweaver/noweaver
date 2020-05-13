@@ -1,8 +1,8 @@
 ---
 date: 2019-10-04
 title: PER 연습
-tags: [주식]
-categories: [FIRE]
+categories: [기록]
+tags: [FIRE, 주식]
 draft: false
 ---
 

@@ -1,8 +1,8 @@
 ---
 date: 2019-09-16
 title: 삼성증권 CMA
-tags: [CMA]
-categories: [FIRE]
+categories: [기록]
+tags: [FIRE, CMA]
 draft: false
 ---
 
