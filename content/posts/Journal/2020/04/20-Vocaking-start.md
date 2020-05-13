@@ -2,7 +2,7 @@
 date: 2020-04-21
 title: 단어왕 개발 시작을 알리며
 categories: [기록]
-tags: [영어, 단어]
+tags: [영어, 단어, Vocaking]
 draft: false
 ---
 
