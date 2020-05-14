@@ -53,7 +53,7 @@ $ sudo apt -y install postgresql postgresql-contrib
 ```
 
 하지만, 아래와 같이 [공식 사이트](https://www.postgresql.org/) 가면 현재 버전은 12.x까지 릴리즈 되었다.
-![20200513 현재 PostgreSQL 버전](/2020/05/postgresql-version-20200513.png)
+![20200513 현재 PostgreSQL 버전](/2020/05/postgresql-version-20200513.png) 여기에서는 12.x 버전를 설치하기로 한다. 
 
 ## PostgreSQL 저장소 추가
 
@@ -148,7 +148,7 @@ Listen 주소도 *로 되어 있는지 확인 한다.
 ```zsh
 $ sudo vi /etc/postgresql/12/main/postgresql.conf
 # - Connection Settings -
-listen_addresses = '*
+listen_addresses = '*'
 ```
 
 DB 재시작
