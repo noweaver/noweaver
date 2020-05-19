@@ -104,6 +104,14 @@ postgres=# \q
 
 # 사용자 생성
 
+## postgres 암호 변경
+
+```zsh
+$ sudo su - postgres
+$ psql
+postgres=# alter user postgres with password 'Asdf!234'
+```
+
 ## 사용자를 생성
 
 ```zsh
