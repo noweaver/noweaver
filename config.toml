@@ -1,0 +1,8 @@
+#baseURL = 'http://example.org/'
+baseURL = "https://noweaver.github.io"
+
+languageCode = 'en-us'
+title = 'noweaver'
+
+theme = "book"
+
